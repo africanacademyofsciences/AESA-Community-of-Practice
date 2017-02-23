@@ -130,7 +130,7 @@ li a:hover {
 ************************************************************************************/
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGElEQVQIW2NkYGD4z8DAwMgAI0AMdM5/ACRwAgMsRgU3AAAAAElFTkSuQmCC), url(../img/hero3.jpg);
+    background-image: linear-gradient(hsla(0, 0%, 4%, 0.83), hsla(0, 0%, 4%, 0.83)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGElEQVQIW2NkYGD4z8DAwMgAI0AMdM5/ACRwAgMsRgU3AAAAAElFTkSuQmCC), url(../img/hero3.jpg);
     height: 100vh;
     width: 100%;
 }
@@ -195,4 +195,123 @@ li a:hover {
     margin-right: auto;
     font-size: 2.5em;
     color: #504949;
+}
+
+/************************************************************************************ 
+  Media Query 639px responsive mode starts
+************************************************************************************/
+
+@media screen and (max-width: 639px) {
+    .menu > li > a {
+        background-color: #000;
+    }
+    .menu img {
+        display: none;
+    }
+    .top-bar {
+        padding: 0;
+    }
+    #register-top-right {
+        margin-right: 0;
+    }
+    #about-padding p,
+    .regg h3 {
+        font-size: 1.2em;
+    }
+    #hero-text-padding {
+        padding-top: 40%;
+        position: absolute;
+        bottom: 5%;
+        width: 100%;
+    }
+    .hero p {
+        text-align: center;
+        color: #fff;
+        font-size: 2em;
+        line-height: 50px;
+    }
+    #pad-contact {
+        padding-left: 15px
+    }
+    .xx .register-top-right {
+        margin-right: 0px;
+    }
+    .xx {
+        margin-top: -10px;
+    }
+    #clock .block p {
+        font-size: 15px;
+    }
+    .header {
+        position: static;
+    }
+    .top-bar ul {
+        background-color: transparent;
+        margin-top: 20%;
+        position: fixed;
+        width: 100%;
+        z-index: 4;
+    }
+    .reveal {
+        top: 65px;
+    }
+}
+@media screen and (max-height: 535px) {
+    .hero p {
+        text-align: center;
+        color: #fff;
+        font-size: 1.5em;
+        line-height: 50px;
+    }
+    @media screen and (max-height: 320) {
+        #hero-text-padding {
+            padding-top: 40%;
+            position: absolute;
+            bottom: 5%;
+            width: 100%;
+        }
+        .hero p {
+            font-size: 1em;
+            line-height: 30px;
+            margin-bottom: 0px;
+        }
+    }
+    @media screen and (max-height: 600px) {
+        #hero-text-padding {
+            padding-top: 40%;
+            position: absolute;
+            bottom: 5%;
+            width: 100%;
+        }
+    }
+}
+
+/************************************************************************************ 
+  Media Query LANDSCAPE responsive mode starts
+************************************************************************************/
+
+@media only screen (max-width:1000px) and (orientation: landscape) {
+    .xx .register-top-right {
+        margin-right: 0;
+    }
+    .menu>li>a {
+        padding: 0.7em;
+    }
+    .hero p {
+        font-size: 1em;
+        line-height: 30px;
+        margin-bottom: 0px;
+    }
+    .date {
+        font-size: 25px;
+    }
+    #clock {
+        margin-top: 0px;
+    }
+    .digit {
+        font-size: 20px;
+    }
+    .web_logo {
+        width: 35px;
+    }
 }
