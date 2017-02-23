@@ -27,6 +27,10 @@ html, body{
     background-color: #f0f0fb;
 }
 
+*{
+    font-family: "raleway", serif;
+}
+
 h1,
 h2,
 h3,
@@ -62,113 +66,60 @@ ul{
     list-style: none;
 }
 
-/****************************NAV BAR************************************/
-  
-.nav{
-    background: #ffffff;
-    min-height: 50px;
+/************************************************************************************ 
+               Top-nav bar
+************************************************************************************/
+
+.menu > li > a {
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+}
+.top-bar,
+.top-bar ul {
+    background-color: transparent;
+}
+.header {
     position: fixed;
-    width: 100%;
-    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    height: 60px;
+    background-color: transparent;
+    transition: .5s;
+    padding-left: 5%;
 }
-.nav .left{
-    float: left;
-    margin-left: 0;
+.header.scrolling {
+    background-color: #005000;
+    opacity: 1;
+    transition: .5s;
+    z-index: 10;
 }
-.nav .left li{
-    font-size: 14px;
-    float: left;
+.xx .register-top-right {
+    border: solid 1px #fff;
+    border-radius: 5px;
+    margin-right: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-transition: background-color .5s ease-in-out;
+    background-color: #fff;
+    color: #000;
+    transition: .5s;
 }
-.nav .left li a{
-    display: block;
-    padding: 9px 15px;
-    line-height: 30px;
+.xx .register-top-right:hover {
+    opacity: .5;
 }
-.nav .left li a:hover{
-    background:  #D08B0B;
+li a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+    transition: .5;
 }
-
-.nav .right{
-    float: right;
-    margin-right: 0;
+.web_logo {
+    width: 64px;
 }
-.nav .right li{
-    font-size: 14px;
-    float: left;
+.title-bar {
+    z-index: 50;
 }
-.nav .right li a{
-    display: block;
-    padding: 9px 15px;
-    line-height: 30px;
-}
-.nav .right li a:hover{
-    background:  #D08B0B;
-}
-
-.toggle-nav{
-    display: none;
-}
-
-.nav-mobile style{
-    display: block;
-}
-
-/*********NAV BAR END**********/
-
-/****************************MEDIA QUERIES************************************/
-@media only screen and (max-width: 640px){
-    .nav{
-        border-bottom: 1px solid rgba(0,0,0,0.1);
-    }
-    .nav-center{
-        width: 100%;
-    }
-    .toggle-nav{
-        display: block;
-        padding: 10px;
-        position: absolute;
-        right: 10px;
-        line-height: 30px;
-    }
-    .toggle-nav:after{
-        content: ' Menu';
-    }
-
-    .nav-mobile{
-        display: none;
-    }
-
-    .style-mobile{
-        background: #ffffff;
-        top : 51px;
-        position : absolute;
-        width : 100%;
-    }
-
-    .style-mobile li{
-        display: block;
-        width: 100%;
-    }
-
-    .nav .right{
-        display: block;
-        float: none;
-        margin: 0em;
-    }
-
-    .nav .left{
-        display: block;
-        float: none;
-        margin: 0em;
-    }
-}
-
-@media only screen and (min-width: 641px){
-    .nav-mobile {
-        display:block !important;
-    }
-}
-/*********MEDIA QUERY END**********/
 
 .body-content{
     margin-bottom: 150px;
