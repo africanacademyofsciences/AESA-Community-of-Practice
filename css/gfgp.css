@@ -352,7 +352,7 @@ ul.img-list li {
 span.text-content span {
     display: table-cell;
     text-align: center;
-     }
+}
 
 .jina {
     font-size: 14px;
@@ -724,6 +724,6 @@ footer{
     color: #FFFFFF;
 }
 .cent{
-  text-align: center;
-  padding-top: 34px;
+    text-align: center;
+    padding-top: 34px;
 }

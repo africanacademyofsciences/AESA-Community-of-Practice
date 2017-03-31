@@ -9,151 +9,151 @@ and open the template in the editor.
 */
 
 *{
-  font-family: 'Raleway', serif;
+    font-family: 'Raleway', serif;
 }
 body{
-  background-color: white;
+    background-color: white;
 }
 #home{
-  background-image: url(../img/deltas.jpg);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+    background-image: url(../img/deltas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .overlay{
-  background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.5);
 }
 .hr{
-  width: 700px;
+    width: 700px;
 }
 .none{
-  background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0);
 }
 .fit{
- padding: 40px;
-  margin:-15px;
+    padding: 40px;
+    margin:-15px;
 }
 nav{
-  background-color: rgba(0,0,0,0);
- color: white;
+    background-color: rgba(0,0,0,0);
+    color: white;
 }
 .link, .linkz{
-  list-style: none;
-  padding-left: 5px;
+    list-style: none;
+    padding-left: 5px;
 }
 #deliverModal{
-  background-image: url(../assets/deliver.jpg); 
-  color: white;
+    background-image: url(../assets/deliver.jpg); 
+    color: white;
 }
 .deliverul{
-  margin-left: 40px;
+    margin-left: 40px;
 }
 .deliver{
-  color: #8dc153;
-  border:1px solid;
-   padding-left: 12px;
- padding-right: 12px;
- padding-top: 7px;
- padding-bottom: 7px;
- text-transform: uppercase;
- font-size: 13px;
+    color: #8dc153;
+    border:1px solid;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    font-size: 13px;
 }
 .deliver:hover{
- color: white;
- background-color: #8dc153;
+    color: white;
+    background-color: #8dc153;
 }
 .delttl{
-  font-size: 30px;
-  text-align: center;
+    font-size: 30px;
+    text-align: center;
 }
 .hrs{
-  width: 200px;
+    width: 200px;
 }
 .ppl:hover{
-  color: #DEB200;
+    color: #DEB200;
 }
 .big{
-  color: white;
-  padding-top: 70px;
-  padding-bottom: 50px;
-  text-align: center;
-  font-size: 60px;
-  font-weight: 100;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
 }
 .cnt{
-  text-align: center;
-  font-size: 20px;
-  padding-top: 70px;
-  padding-bottom:170px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 70px;
+    padding-bottom:170px;
 }
 .cnts{
-  text-align: center;
-  font-size: 20px;
-  padding-top: 70px;
-  padding-bottom:70px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 70px;
+    padding-bottom:70px;
 }
 .head{
-  padding-top: 15px;
-  text-align: center;
-  font-size: 40px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 40px;
 }
 .ttn{
-  border:2px solid white;
-  padding-top:19px; 
-  padding-bottom: 19px;
-  padding-right: 15px;
-  padding-left: 15px;
+    border:2px solid white;
+    padding-top:19px; 
+    padding-bottom: 19px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .ttl {
-  font-weight: 600;
-  font-size: 20px;
-  text-transform: uppercase;
-  text-align: center; 
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center; 
 }
 .mdim{
-  margin-bottom: -5px;
-  color: white;
-  text-align: center;
-  font-size: 25px;
+    margin-bottom: -5px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
 }
 .ppl{
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 .right{
-  float: right;
+    float: right;
 }
 .buttn{
-  border: 2px solid white;
-  border-radius: 5px;
-  background-color: rgba(0,0,0,0);
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0);
 }
 .pad{
-  padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 .buttn:hover, .ttn:hover{
-  background-color: white;
-  color: #DEB200;
+    background-color: white;
+    color: #DEB200;
 }
 .up{
-  margin-top: -35px;
-  padding-right: 100px;
+    margin-top: -35px;
+    padding-right: 100px;
 }
 .bout{
-  text-align: center;
-  font-size: 17px;
+    text-align: center;
+    font-size: 17px;
 }
 #tuition{
-  color: white;
-  background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-  background-image: url(../assets/bg_student.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../assets/bg_student.jpg);
 }
 .tuit{
-  font-size: 24px;
-  text-align: center;
+    font-size: 24px;
+    text-align: center;
 }
 footer{
     background: #353B47;
@@ -161,22 +161,22 @@ footer{
     color: #FFFFFF;
 }
 .cent{
-  text-align: center;
-  padding-top: 34px;
+    text-align: center;
+    padding-top: 34px;
 }
 .tt{
-  padding-bottom: 2px;
-  font-size: 18px;
-  padding-top: 20px;
+    padding-bottom: 2px;
+    font-size: 18px;
+    padding-top: 20px;
 }
 
 footer a{
-  display: block;
-   color: #ffffff;
-   font-size: 13px;
+    display: block;
+    color: #ffffff;
+    font-size: 13px;
 }
 li{
-  list-style: none;
+    list-style: none;
 }
 .go-top {
     position: fixed;
@@ -198,9 +198,9 @@ li{
     text-decoration: none;
 }
 .fixd{
-   border:2px solid white;
-   padding:9px;
-   border-radius: 5px;
+    border:2px solid white;
+    padding:9px;
+    border-radius: 5px;
 }
 .foot{
     display:inline;
@@ -210,45 +210,45 @@ li{
     padding-right: 4px;
 }
 footer a:hover, .foot:hover, .color{
-  color: #DEB200;
+    color: #DEB200;
 }
 .color:hover{
-  color: #DEB200 !important;
-  text-decoration: underline;
+    color: #DEB200 !important;
+    text-decoration: underline;
 }
 /*modal*/
 .form{
-  width: 550px;
-  height: 480px;
+    width: 550px;
+    height: 480px;
 }
 @media screen and (max-width:1000px){
-  .form{
-    width: 350px;
-    height: 550px;
-  }
-  .hr{
-    width: 300px;
-  }
-  .link{
-    display: block !important;
-    background-color:#353B47;     
-    list-style: none;
-    padding-right: 55px;
-  }
-  .bout, .tuit{
-    margin-left: 8px;
-    margin-right: 8px;
-  }
-  .link:hover, .link:visited{
-    color: #DEB200;
-  }
-  .zero{
-    display: none;
-  }
+    .form{
+        width: 350px;
+        height: 550px;
+    }
+    .hr{
+        width: 300px;
+    }
+    .link{
+        display: block !important;
+        background-color:#353B47;     
+        list-style: none;
+        padding-right: 55px;
+    }
+    .bout, .tuit{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .link:hover, .link:visited{
+        color: #DEB200;
+    }
+    .zero{
+        display: none;
+    }
 }
 
 #overlay1{
-        background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0);
 }
 
 /*#teamsection {
@@ -261,68 +261,68 @@ footer a:hover, .foot:hover, .color{
 
 
 .image {
-  height: 200px;
-  width: 250px; }
+    height: 200px;
+    width: 250px; }
 .hire{margin-top:30px;font-size:30px;text-transform:uppercase;color:#8dc153;text-shadow:1px 1px #000}
 span.text-content {
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  display: table;
-  height: 200px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 250px; }
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: table;
+    height: 200px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 250px; }
 
 ul.img-list li {
-  display: inline-block;
-  height: 200px;
-  margin: 0 1em 1em 0;
-  position: relative;
-  width: 250px;
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%); }
+    display: inline-block;
+    height: 200px;
+    margin: 0 1em 1em 0;
+    position: relative;
+    width: 250px;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%); }
 
 ul.img-list li:hover {
-  -webkit-filter: grayscale(80%);
-  filter: grayscale(80%); }
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(80%); }
 
 span.text-content span {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle; }
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle; }
 
 
 span.text-content {
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  cursor: pointer;
-  display: table;
-  height: 200px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 250px;
-  opacity: 0; }
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    height: 200px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 250px;
+    opacity: 0; }
 
 .img-list:hover span.text-content {
-  opacity: 1; }
+    opacity: 1; }
 
 span.text-content {
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  cursor: pointer;
-  display: table;
-  height: 200px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 250px;
-  opacity: 0;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms; }
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    height: 200px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 250px;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms; }
 
 /****************************************************/
 /*TEAM CSS*/
@@ -335,86 +335,86 @@ span.text-content {
   height: 550px; }*/
 
 .lft {
-  padding-right: 110px; }
+    padding-right: 110px; }
 
 .rght {
-  padding-left: 110px; }
+    padding-left: 110px; }
 
 .tim {
-  margin-top: -60px; }
+    margin-top: -60px; }
 
 ul.img-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center; }
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
 
 ul.img-list li {
-  display: inline-block;
-  height: 100%;
-  margin: 0 1em 1em 0;
-  position: relative;
-  width: 100%; }
+    display: inline-block;
+    height: 100%;
+    margin: 0 1em 1em 0;
+    position: relative;
+    width: 100%; }
 
 span.text-content span {
-  display: table-cell;
-  text-align: center;
-  /*vertical-align: middle;*/ }
+    display: table-cell;
+    text-align: center;
+    /*vertical-align: middle;*/ }
 
 .jina {
-  font-size: 14px;
-  padding: 5px; }
+    font-size: 14px;
+    padding: 5px; }
 
 span.text-content {
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 10px;
-  border-radius: 2px;
-  text-transform: uppercase;
-  font-size: 12px;
-  margin-top: 30%;
-  color: white;
-  cursor: pointer;
-  display: table;
-  height: 100%;
-  left: 0;
-  margin-left: 10%;
-  position: absolute;
-  width: 80%;
-  opacity: 0;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms; }
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 30%;
+    color: white;
+    cursor: pointer;
+    display: table;
+    height: 100%;
+    left: 0;
+    margin-left: 10%;
+    position: absolute;
+    width: 80%;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms; }
 
 @media screen and (max-width: 1000px) {
-  #team {
-  background-image: url(../assets/images/team.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 400px; }
-    
-  .tim {
-    margin: 0px; }
+    #team {
+        background-image: url(../assets/images/team.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 400px; }
 
-  .tambua {
-    display: none !important; }
+    .tim {
+        margin: 0px; }
 
-  .lft, .rght {
-    padding: 0px; }
+    .tambua {
+        display: none !important; }
 
-  .jina {
-    font-size: 12px; }
+    .lft, .rght {
+        padding: 0px; }
 
-  span.text-content {
-    display: none; }
+    .jina {
+        font-size: 12px; }
 
-  .pic {
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
-    height: 80%;
-    width: 80%;
-    margin-top: 20px; } }
+    span.text-content {
+        display: none; }
+
+    .pic {
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+        height: 80%;
+        width: 80%;
+        margin-top: 20px; } }
 
 #toTopHover {
     width: 32px;
@@ -447,6 +447,6 @@ footer{
     color: #FFFFFF;
 }
 .cent{
-  text-align: center;
-  padding-top: 34px;
+    text-align: center;
+    padding-top: 34px;
 }
