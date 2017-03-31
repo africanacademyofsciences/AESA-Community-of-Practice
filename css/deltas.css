@@ -440,3 +440,13 @@ span.text-content {
     text-indent: 100%;
     background: url("../img/arrow.png") no-repeat 0px 0px;
 }
+
+footer{
+    background: #353B47;
+    bottom: 0;
+    color: #FFFFFF;
+}
+.cent{
+  text-align: center;
+  padding-top: 34px;
+}
