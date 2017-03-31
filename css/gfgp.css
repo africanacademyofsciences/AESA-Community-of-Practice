@@ -251,14 +251,6 @@ footer a:hover, .foot:hover, .color{
     background-color: rgba(0,0,0,0);
 }
 
-/*#teamsection {
-    background-image: url(../img/deltas.jpg);
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 1000px;
-}*/
-
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -332,17 +324,8 @@ span.text-content {
     -webkit-transition: opacity 500ms;
     -moz-transition: opacity 500ms;
     -o-transition: opacity 500ms;
-    transition: opacity 500ms; }
-
-/****************************************************/
-/*TEAM CSS*/
-/***************************************************/
-/*#team {
-  background-image: url(../assets/images/team.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 550px; }*/
+    transition: opacity 500ms;
+}
 
 .lft {
     padding-right: 110px; }
@@ -369,7 +352,7 @@ ul.img-list li {
 span.text-content span {
     display: table-cell;
     text-align: center;
-    /*vertical-align: middle;*/ }
+     }
 
 .jina {
     font-size: 14px;
