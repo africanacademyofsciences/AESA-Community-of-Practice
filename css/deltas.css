@@ -330,12 +330,12 @@ span.text-content {
     transition: opacity 500ms; }
 
 @media screen and (max-width: 1000px) {
-    #team {
+/*    #team {
         background-image: url(../assets/images/team.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 400px; }
+        height: 400px; }*/
 
     .tim {
         margin: 0px; }
