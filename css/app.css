@@ -121,6 +121,10 @@ li a:hover {
 .web_logo {
     width: 400px;
 }
+.img-rounded {
+  border-radius: 500px;
+}
+
 .title-bar {
     z-index: 50;
 }
