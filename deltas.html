@@ -33,7 +33,7 @@
                     <div class="top-bar" id="menu" data-animation-in="hingeOutFromMiddleY">
                         <div class="row zero">
                             <div class="large-2 medium-2 columns">
-                                <a href="index.html"> <img src="img/aesa-logo.jpg"> </a>
+                                <a href="index.html"> <img src="img/aesa-logo.png"> </a>
                             </div>
                         </div>
                         <div class="top-bar-right up">
@@ -53,9 +53,10 @@
                     <p class="mdim animated fadeInRight"> and spanning 54 lead and partner institutions from across the continent to invest in research infrastructure and offer training fellowships and mentorship. </p>
                 </div>
                 <br>
-                <div class="row">
+                <hr>
+                <div class="row" style="padding-top: 100px;">
                     <div class="large-4 medium-4 small-12 columns">
-                        <a class="animated fadeInUp success button large expanded" href="#about" target="_blank">
+                        <a class="animated fadeInUp success button large expanded" href="#about" target="_blank" style="color: white;">
                             About
                             <i class="fa fa-info" aria-hidden="true"></i></a>
                     </div>
@@ -69,6 +70,11 @@
                             Community of Practice
                             <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
                     </div>
+                </div>
+                <br>
+                <div style="text-align: center; padding-top: 130px;">
+                    <a href="#about" style="color: #DEB200;" title="About Deltas"><i class="fa fa-arrow-down fa-2x animated infinite fadeIn" aria-hidden="true"></i></a>
+
                 </div>
             </div>
         </div>
@@ -686,8 +692,8 @@
                     <li class="accordion-item">
                         <a href="" role="tab" class="accordion-title" id="collapse2-heading"><i class="fa fa-flask" aria-hidden="true"></i> Research and Capacity Building</a>
                         <div id="collapse3" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading"></div>
-                            <p class="ttl">Partner Institutions</p>
-                            
+                        <p class="ttl">Partner Institutions</p>
+
                 </ul>
             </section>
             <!--end of accordion-->
@@ -1750,22 +1756,32 @@
                 </div>
                 <!-- curent date and year to appear on footer-->
                 <div class="row" id="copyright" style="text-align: center;"
->                    &copy; African Academy of Sciences.
+                     >                    &copy; African Academy of Sciences.
                     <script type="text/javascript">
                         document.write(new Date().getFullYear());
                     </script>
-                    <a href="#home" id="toTop" style="display: block;"><span id="toTopHover"></span><span id="toTopHover"></span> <span id="toTopHover" style="opacity: 1;"> </span></a>
+                    <!--<a href="#home" id="toTop" style="display: block;"><span id="toTopHover"></span><span id="toTopHover"></span> <span id="toTopHover" style="opacity: 1;"> </span></a>-->
+
                 </div>
             </div>
         </footer>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-        <script src="js/smooth-scroll.js"></script>
-        <script src="js/vendor/jquery.js"></script>
-        <script src="js/vendor/what-input.js"></script>
-        <script src="js/vendor/foundation.min.js"></script>
-        <script src="js/app.js"></script>
-        <script>
-                        smoothScroll.init();
+        <script type="text/javascript">
+            $(document).ready(function () {
+
+                $().UItoTop({easingType: 'easeOutQuart'});
+
+            });
         </script>
+        <a href="#home" id="toTop" style="display: block;"><span id="toTopHover"></span><span id="toTopHover"></span> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    </div>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+            smoothScroll.init();
+    </script>
 </body>
 </html>
