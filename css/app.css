@@ -72,7 +72,7 @@ ul{
 
 .menu > li > a {
     text-align: center;
-    color: #fff;
+    color: #003262;
     font-weight: bolder;
 }
 .top-bar,
@@ -94,6 +94,10 @@ ul{
     opacity: 1;
     transition: .5s;
     z-index: 10;
+}
+
+.scrolling .menu > li > a {
+   color: #fff;
 }
 .xx .register-top-right {
     border: solid 1px #fff;
@@ -130,13 +134,15 @@ li a:hover {
 ************************************************************************************/
 
 .hero {
-    background-image: linear-gradient(hsla(0, 0%, 4%, 0.83), hsla(0, 0%, 4%, 0.83)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGElEQVQIW2NkYGD4z8DAwMgAI0AMdM5/ACRwAgMsRgU3AAAAAElFTkSuQmCC), url(../img/hero3.jpg);
+    /*background-image: linear-gradient(hsla(0, 0%, 4%, 0.83), hsla(0, 0%, 4%, 0.83)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGElEQVQIW2NkYGD4z8DAwMgAI0AMdM5/ACRwAgMsRgU3AAAAAElFTkSuQmCC), url(../img/hero3.jpg);*/
     height: 100vh;
     width: 100%;
 }
+
+
 .hero p {
     text-align: center;
-    color: #fff;
+    color: #1386AB;
     font-size: 3.5em;
     line-height: 65px;
 }
@@ -167,7 +173,7 @@ li a:hover {
     padding-top: 15%;
 }
 .date {
-    color: white;
+    color: #1386AB;
     text-align: center;
     font-size: 35px;
 }
