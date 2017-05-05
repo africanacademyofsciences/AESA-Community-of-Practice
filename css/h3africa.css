@@ -8,123 +8,124 @@ and open the template in the editor.
     font-family: 'Raleway', serif;
 }
 body{
-    background-color: white;
+    background-color: #633522;
 }
 
-.nav-center,
-.center{
-    width: 80%;
+/************************************************************************************ 
+               Top-nav bar
+************************************************************************************/
+
+.menu > li > a {
+    text-align: center;
+    color: #003262;
+    font-weight: bolder;
+}
+.top-bar,
+.top-bar ul {
+    background-color: transparent;
+}
+.header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin: 0;
+    height: 60px;
+    background-color: transparent;
+    transition: .5s;
+    padding-left: 5%;
+}
+.header.scrolling {
+    background-color: #271710;
+    opacity: 1;
+    transition: .5s;
+    z-index: 10;
+}
+
+.scrolling .menu > li > a {
+    color: #fff;
+}
+.xx .register-top-right {
+    border: solid 1px #fff;
+    border-radius: 5px;
+    margin-right: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-transition: background-color .5s ease-in-out;
+    background-color: #fff;
+    color: #000;
+    transition: .5s;
+}
+.xx .register-top-right:hover {
+    opacity: .5;
+}
+li a:hover {
+    color: #DEB200;
+    border-bottom: 1px;
+    transition: .5;
+}
+.web_logo {
+    width: 400px;
+}
+.img-rounded {
+    border-radius: 500px;
+}
+
+.title-bar {
+    z-index: 50;
+}
+
+.body-content{
+    margin-bottom: 150px;
+}
+
+/************************************************************************************ 
+               HERO
+************************************************************************************/
+
+.hero {
+    /*background-image: linear-gradient(hsla(0, 0%, 4%, 0.83), hsla(0, 0%, 4%, 0.83)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGElEQVQIW2NkYGD4z8DAwMgAI0AMdM5/ACRwAgMsRgU3AAAAAElFTkSuQmCC), url(../img/hero3.jpg);*/
+    height: 100vh;
+    width: 100%;
+}
+
+
+.hero p {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 3.5em;
+    line-height: 65px;
+}
+.hero p #font-big {
+    font-size: 2em;
+}
+@media screen and (max-width: 439px) {
+    .hero p #font-big {
+        font-size: 2.0em;
+    }
+}
+.hero #register-pad button {
+    border: solid white 1px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1200px;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    width: 300px;
+    -webkit-transition: background-color .5s ease-in-out;
 }
-
-.nav{
-    background: #ffffff;
-    min-height: 50px;
-    position: fixed;
-    width: 100%;
-    top: 0;
+.hero button:hover {
+    border-color: green;
+    background-color: green;
 }
-.nav .left{
-    float: left;
-    margin-left: 0;
+#hero-text-padding {
+    padding-top: 15%;
 }
-.nav .left li{
-    font-size: 14px;
-    float: left;
+.date {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
 }
-.nav .left li a{
-    display: block;
-    padding: 9px 15px;
-    line-height: 30px;
-}
-.nav .left li a:hover{
-    background: #f2f2f2;
-}
-
-.nav .right{
-    float: right;
-    margin-right: 0;
-}
-.nav .right li{
-    font-size: 14px;
-    float: left;
-}
-.nav .right li a{
-    display: block;
-    padding: 9px 15px;
-    line-height: 30px;
-}
-.nav .right li a:hover{
-    background: #f2f2f2;
-}
-
-.toggle-nav{
-    display: none;
-}
-
-.nav-mobile style{
-    display: block;
-}
-
-/*********NAV BAR END**********/
-
-/****************************MEDIA QUERIES************************************/
-@media only screen and (max-width: 640px){
-    .nav{
-        border-bottom: 1px solid rgba(0,0,0,0.1);
-    }
-    .nav-center{
-        width: 100%;
-    }
-    .toggle-nav{
-        display: block;
-        padding: 10px;
-        position: absolute;
-        right: 10px;
-        line-height: 30px;
-    }
-    .toggle-nav:after{
-        content: ' Menu';
-    }
-
-    .nav-mobile{
-        display: none;
-    }
-
-    .style-mobile{
-        background: #ffffff;
-        top : 51px;
-        position : absolute;
-        width : 100%;
-    }
-
-    .style-mobile li{
-        display: block;
-        width: 100%;
-    }
-
-    .nav .right{
-        display: block;
-        float: none;
-        margin: 0em;
-    }
-
-    .nav .left{
-        display: block;
-        float: none;
-        margin: 0em;
-    }
-}
-
-@media only screen and (min-width: 641px){
-    .nav-mobile {
-        display:block !important;
-    }
-}
-/*********MEDIA QUERY END**********/
-
 
 
 #home{
@@ -484,6 +485,6 @@ span.text-content {
         width: 80%;
         margin-top: 20px; } }
 
-#deltaslogo{
-height: auto;
+.img-rounded {
+    border-radius: 8px;
 }

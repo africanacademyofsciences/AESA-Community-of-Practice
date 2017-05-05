@@ -22,87 +22,51 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     </head>
 
-    <body> <a href="#" class="go-top">Back to top</a>
-        <!-- first container -->
-        <!--        <div id="home">
-                    <div class="overlay">
-                        <nav>
-                            <div class="title-bar" data-responsive-toggle="menu" data-hide-for="medium">
-                                <button class="right fixd" type="button" data-toggle><i class="fa fa-bars"></i></button>
-                            </div>
-                            <div class="top-bar" id="menu" data-animation-in="hingeOutFromMiddleY">
-                                <div class="row zero">
-                                    <div class="large-2 medium-2 columns">
-                                        <a href="index.html"> <img src="img/header.jpg"> </a>
-                                    </div>
-                                </div>
-                                <div class="top-bar-right up">
-                                    <ul class="menu">
-                                        <li class="link"><a class="ppl" href="#home">Home <i class="fa fa-home" aria-hidden="true"></i></a></li>
-                                        <li class="link"><a class="ppl" href="#about">About <i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                        <li class="link"><a class="ppl" href="#team">Team <i class="fa fa-users"></i></a></a></li>
-                                        <li class="link"><a class="ppl" href="#programmes">Programmes</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>
-                         end of navbar 
-                        <div class="row">
-                            <p class="big animated fadeInDown"> Human Heredity and Health in Africa (H3Africa) Initiative </p>
-                            <p class="mdim animated fadeInLeft"> </p>
-                            <p class="mdim animated fadeInRight"> </p>
-                        </div>
-                        <br>
-                        <hr>
-                        <div class="row" style="padding-top: 100px;">
-                            <div class="large-4 medium-4 small-12 columns">
-                                <a class="animated fadeInUp success button large expanded" href="#about" target="_blank" style="color: white;">
-                                    About
-                                    <i class="fa fa-info" aria-hidden="true"></i></a>
-                            </div>
-                            <div class="large-4 columns medium-4 small-12 columns">
-                                <a class="animated fadeInUp button large expanded" href="#team" target="_blank">
-                                    Programmes
-                                    <i class="fa fa-users" aria-hidden="true"></i></a>
-                            </div>
-                            <div class="large-4 columns medium-4 small-12 columns">
-                                <a class="animated fadeInUp button large expanded" href="http://aesacop.mna2012.co.ke/aesa-deltas/" target="_blank" style="width: 110%; background-color: rgba(247,163,122, 0.5);">
-                                    Community of Practice
-                                    <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                        <br>
-                        <div style="text-align: center;">
-                            <a href="#about" style="color: #DEB200;" title="About Deltas"><i class="fa fa-arrow-down fa-2x animated infinite fadeIn" aria-hidden="true"></i></a>
-        
-                        </div>
-                    </div>
-                </div>-->
-        <nav class="nav ">
-            <div class="nav-center">
-                <a class="toggle-nav" href="#">&#9776;</a>
+    <body>
+        <a href="#" class="go-top">Back to top</a>
+        <!--    Responsive toggle-->
+        <div style="position: fixed;width: 100%;" class="title-bar " data-responsive-toggle="example-menu" data-hide-for="medium">
+            <button style="margin-top: 3%;" class="title-bar-right menu-icon" type="button" data-toggle></button>
+            <div class="title-bar">
+                <img style="width: 50px;" class="web_logo" src="img/header.jpg">
+            </div>
+        </div>
+        <!--            Nav bar in desktop mode-->
+        <div class="top-bar header " id="example-menu">
+            <!--top bar left -->
+            <div class="top-bar-left" style="background-color: #633522;">
+                <ul class="dropdown menu" data-dropdown-menu>
+                    <img class="web_logo img-rounded" src="img/header.jpg">
+                </ul>
+            </div>
+            <!--top bar right -->
+            <div class=" top-bar-right xx">
+                <ul class="vertical medium-horizontal menu">
+                    <li><a data-scroll href="#hero" style="padding-top: 10%;">HOME <i class="fa fa-home" aria-hidden="true"></i></a></li>
+                    <li><a data-scroll href="#about">ABOUT <i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                    <li><a data-scroll href="#member-areas">MEMBER AREAS <i class="fa fa-users"></i></a></li>
+                    <li><a href="http://localhost/moodle" target="_blank">TRAINING RESOURCES <i class="fa fa-graduation-cap" aria-hidden="true"></i></a></li>
+                    <li><a data-scroll href="#featured">FEATURED LINKS <i class="fa fa-link" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--hero section-->
+        <section class="hero" id="hero">
+            <div id="hero-text-padding" class="bounceInLeft">
+<!--                <p>AESA
+                <sapn id="font-big">COMMUNITIES</sapn>
+                <br> OF PRACTICE
+                </p>
+                <div class="date animated fadeInDown">A shared platform for the AESA Community <i class="fa fa-users" aria-hidden="true"></i></div>-->
+                <div>
+                    <p class="big animated fadeInDown" style="font-size: 30px;"> Human Heredity and Health in Africa (H3Africa) </p>
+                </div>
+                <div style="text-align: center; padding-top: 120px;">
+                    <a href="#about" style="color: #DEB200;" title="About Deltas"><i class="fa fa-arrow-down fa-2x animated infinite fadeIn" aria-hidden="true"></i></a>
 
-                <div class="nav-mobile">
-                    <ul class="left">
-                        <li class="link"><a class="ppl" href="#home">Home <img src="img/header.jpg"></a></li>
-                    </ul>
-                    <ul class="right">
-                        <li class="link">
-                            <a class="ppl" href="#home">Home <i class="fa fa-home" aria-hidden="true"></i></a>
-                        </li>
-                        <li class="link">
-                            <a class="ppl" href="#about">About <i class="fa fa-info-circle" aria-hidden="true"></i></a>
-                        </li>
-                        <li class="link">
-                            <a class="ppl" href="#team">Team <i class="fa fa-users"></i></a>
-                        </li>
-                        <li class="link">
-                            <a class="ppl" href="#programmes">Programmes</a>
-                        </li>
-                    </ul>
                 </div>
             </div>
-        </nav>
+        </section>
         <!-- end of first container -->
         <div id="about">
             <p class="head">About Deltas</p>
