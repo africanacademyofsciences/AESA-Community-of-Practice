@@ -17,7 +17,7 @@ body{
 
 .menu > li > a {
     text-align: center;
-    color: #003262;
+    color: #ffffff;
     font-weight: bolder;
 }
 .top-bar,
@@ -127,9 +127,11 @@ li a:hover {
     font-size: 35px;
 }
 
+#about{
+    background-color: #FFFFFF;
+}
 
 #home{
-    /*background-image: url(../img/deltas.jpg);*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -158,10 +160,7 @@ li a:hover {
     padding: 40px;
     margin:-15px;
 }
-/*nav{
-    background-color: rgba(0,0,0,0);
-    color: white;
-}*/
+
 .link, .linkz{
     list-style: none;
     padding-left: 5px;
@@ -396,13 +395,6 @@ span.text-content {
 /****************************************************/
 /*TEAM CSS*/
 /***************************************************/
-/*#team {
-  background-image: url(../assets/images/team.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 550px; }*/
-
 .lft {
     padding-right: 110px; }
 
@@ -456,12 +448,6 @@ span.text-content {
     transition: opacity 500ms; }
 
 @media screen and (max-width: 1000px) {
-    /*    #team {
-            background-image: url(../assets/images/team.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            height: 400px; }*/
 
     .tim {
         margin: 0px; }
@@ -486,5 +472,5 @@ span.text-content {
         margin-top: 20px; } }
 
 .img-rounded {
-    border-radius: 8px;
+    border-radius: 100px;
 }
