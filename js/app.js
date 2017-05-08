@@ -58,9 +58,7 @@ $(window).scroll(function () {
     checkAnimation();
 });
 
-// ********************************************************
-// NAV BAR
-// 
+//Navbar
 $(function(){
 
     // Returns width of browser viewport
