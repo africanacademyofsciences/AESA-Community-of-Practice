@@ -24,7 +24,7 @@ html, body{
     font-size: 16px;
     /*padding-top: 80px;*/
     text-align: justify;
-    background-color: #f0f0fb;
+    background-color: #003a70;
 }
 
 *{
@@ -72,7 +72,7 @@ ul{
 
 .menu > li > a {
     text-align: center;
-    color: #003262;
+    color: #FFFFFF;
     font-weight: bolder;
 }
 .top-bar,
@@ -120,10 +120,13 @@ li a:hover {
 }
 .web_logo {
     width: 500px;
-}
-.img-rounded {
+    -moz-border-radius: 500px;
     border-radius: 500px;
 }
+/*.img-rounded {
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+}*/
 
 .title-bar {
     z-index: 50;
@@ -146,7 +149,7 @@ li a:hover {
 
 .hero p {
     text-align: center;
-    color: #1386AB;
+    color: #FFFFFF;
     font-size: 3.5em;
     line-height: 65px;
 }
@@ -177,7 +180,7 @@ li a:hover {
     padding-top: 15%;
 }
 .date {
-    color: #1386AB;
+    color: #FFFFFF;
     text-align: center;
     font-size: 35px;
 }
