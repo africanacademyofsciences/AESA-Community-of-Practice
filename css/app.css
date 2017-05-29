@@ -199,6 +199,7 @@ li a:hover {
     padding-left: 85px;
     margin-right: auto;
     margin-left: auto;
+    height: auto;
 }
 #about-padding {
     display: block;
@@ -213,6 +214,7 @@ li a:hover {
     font-size: 2.5em;
     color: #504949;
 }
+
 
 .lead {
     font-size: 115%;
@@ -250,6 +252,19 @@ li a:hover {
     text-indent: 100%;
     background: url("../img/arrow.png") no-repeat 0px 0px;
 }
+
+/*member areas*/
+#member-areas{
+    background-color: #FFFFFF;
+    height: auto;
+}
+
+/*footer*/
+footer{
+    background-color: #f0f0fb;
+}
+
+
 
 /************************************************************************************ 
   Media Query 639px responsive mode starts
