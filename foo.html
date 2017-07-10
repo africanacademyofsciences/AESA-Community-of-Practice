@@ -14,7 +14,7 @@
         <meta property="og:type" content="website">
         <link rel="canonical" href="https://deltas.mna2012.co.ke/start">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation.css'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css">
         <link rel="stylesheet" href="css/app.css">
         <link rel="stylesheet" href="css/animate.css">
         <!--fonts-->
@@ -45,6 +45,20 @@
                 user-select: none;
             }
 
+            header .logo, header nav {
+                display: inline-block;
+                float: left;
+            }
+
+            header .logo {
+                width: 270px;
+                /*height: 0px;*/
+            }
+
+            .home header .button {
+                margin-left: 15px;
+            }
+
             .grid-container {
                 position: relative;
                 display: block;
@@ -59,7 +73,7 @@
                 cursor: pointer;
             }
 
-            div, img{
+            h1, h2, h3, h4, h5, h6, span, div, img{
                 margin: 0;
                 padding: 0;
                 border: 0;
@@ -76,23 +90,129 @@
                 background-size: cover;
             }
 
+            section {
+                display: block;
+            }
+
+            .hero-welcome .info {
+                position: absolute;
+                width: 40%;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
+
+            p.large {
+                font-size: 1.235em;
+                line-height: 1.25;
+                color: #3f3f3f;
+            }
+
+            .home .how-it-works {
+                background: #fff;
+                width: 100%;
+                position: relative;
+                clear: both;
+                padding: 60px 0;
+                overflow: auto;
+                text-align: center;
+            }
+
+            .home .how-it-works em {
+                display: block;
+                clear: both;
+                color: #327ca2;
+                font-size: 2em;
+                margin-bottom: 20px;
+            }
+
+            .bold {
+                font-family: 'Raleway', serif;
+            }
+            em {
+                line-height: 1.15;
+            }
+
+            .home .join-us {
+                background: #fff;
+                width: 100%;
+                position: relative;
+                clear: both;
+                color: #109bd4;
+            }
+
+            .home .join-us {
+                color: #109bd4;
+            }
+
+            home footer {
+                background: #fff;
+                width: 100%;
+                position: relative;
+                clear: both;
+                padding: 0 0 80px;
+                color: #ababab;
+                font-size: .9em;
+            }
+
+            .home footer .grid-container {
+                border-top: 1px solid #ededed;
+                padding-top: 20px;
+            }
         </style>
         <div id="app">
             <div class="home">
                 <header>
-                    <div class="grid-container">
+                    <div class="grid-container clearfix">
                         <a href="/" class="router-link-exact-active router-link-active">
-                            <img src="img/aesa-logo.jpg" class="logo"></a> <a href="/login" class="button primary">Login</a>
-                        <a href="/register" class="button success">Sign Up</a>
+                            <img src="img/aesa-logo.jpg" class="logo"></a>
+                        <a href="/login" class="button primary float-right">Login</a>
+                        <a href="/register" class="button success float-right">Sign Up</a>
                     </div>
                 </header>
                 <section class="hero-welcome">
                     <div class="grid-container">
                         <div class="info">
                             <h1>Exchange ideas, drive change for Africa</h1>
-                            <p class="large">The first ever matching platform for people committed to African development.</p> <a href="/register" class="btn-round-big bg-six active">Sign Up</a></div>
+                            <p class="large">The first ever matching platform for people committed to African development.</p> <a href="/register" class="button secondary large">Sign Up</a></div>
                     </div>
                 </section>
+                <section class="how-it-works">
+                    <div class="grid-container"><em class="bold">How it works</em>
+                        <div class="large-4 columns"><img src="/static/img/home-ipad-1.20a6c82.jpg">
+                            <h4>Networking reinvented</h4>
+                            <p>Get matched with people that can support your Big Idea for Africa or offer the right skills sets to take your project to the next level.</p>
+                        </div>
+                        <div class="large-4 columns"><img src="/static/img/home-ipad-2.26c8b88.jpg">
+                            <h4>Connect and exchange instantly</h4>
+                            <p>Connect, chat and exchange ideas with the right the people and right projects at the right time.</p>
+                        </div>
+                        <div class="large-4 columns"><img src="/static/img/home-ipad-3.ff85584.jpg">
+                            <h4>Get recognised</h4>
+                            <p>Whatever it is – a project, a new technology, a business or a research collaboration – use the Big Ideas Map to get your work recognised.</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="join-us">
+                    <div class="grid-container">
+                        <div class="large-4 columns shift-1">
+                            <h2 class="bold">Join Us on PEI ex<span>Change</span></h2>
+                            <p>The PEI exChange is the first online matching platform for all those passionate about African development.</p>
+                            <p>Based on user-identified criteria, including countries and regions of focus, industries, skills and experience, the PEI exChange provides personalised matches to help make your ‘Big Idea for Africa’ a reality.</p>
+                            <p>Whatever it is, the PEI exChange makes it possible to connect and chat with the right people, exchange ideas and knowledge and build networks to support Big Ideas.</p>
+                        </div>
+                        <div class="large-4 columns shift-2"><em class="bold">Add your email to <span>get involved</span>.</em>
+                            <form>
+                                <input placeholder="someone@example.com" required="required" class="" type="email">
+                                <input value="Sign Up" class="btn btn-big bg-five active" type="submit">
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    <div class="grid-container"><span>© Planet Earth Institute 2017. All rights reserved.</span></div>
+                </footer>
+
             </div>
         </div>
 
