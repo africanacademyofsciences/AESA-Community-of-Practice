@@ -41,7 +41,7 @@
                 text-transform: capitalize;
                 font-family: 'Raleway', serif;
             }
-            
+
             h1, h2, h3, h4, h5 {
                 font-weight: inherit;
             }
@@ -65,11 +65,18 @@
                 -o-user-select: none;
                 user-select: none;
             }
-            
+
             .home .info h1 {
-                color: #fff;
-                font-size: 4em;
+                /*color: #fff;*/
+                font-size: 20px;
             }
+
+            home .info p {
+                color: #fff;
+                font-size: 1.8em;
+                margin-bottom: 35px;
+            }
+
             header .logo, header nav {
                 display: inline-block;
                 float: left;
@@ -170,7 +177,7 @@
                 color: #109bd4;
             }
 
-            home footer {
+           footer {
                 background: #fff;
                 width: 100%;
                 position: relative;
@@ -179,7 +186,7 @@
                 color: #ababab;
                 font-size: .9em;
             }
-
+            
             .home footer .grid-container {
                 border-top: 1px solid #ededed;
                 padding-top: 20px;
@@ -198,10 +205,12 @@
                 </header>
                 <section class="hero-welcome">
                     <div class="grid-container">
-                        <div class="info" style="bottom:15px;">
-                            <h1 style="font-size: "Exchange ideas, drive change for Africa</h1>
+                        <div class="info" style="bottom:15px; padding-top: 10%;">
+                            <h1>Exchange ideas, drive change for Africa</h1>
+                            <br>
                             <p class="large">The first ever matching platform for people committed to African development.</p>
-                            <a href="/register" class="button secondary large">Sign Up</a>
+                            <br>
+                            <a href="/register" class="button secondary large expanded" style="border-radius: 25px; opacity: 1; font-size: 1.5em;">Sign Up</a>
                         </div>
                     </div>
                 </section>
@@ -223,13 +232,13 @@
                 </section>
                 <section class="join-us">
                     <div class="grid-container">
-                        <div class="large-4 columns shift-1">
+                        <div class="large-6 columns shift-1">
                             <h2 class="bold">Join Us on PEI ex<span>Change</span></h2>
                             <p>The PEI exChange is the first online matching platform for all those passionate about African development.</p>
                             <p>Based on user-identified criteria, including countries and regions of focus, industries, skills and experience, the PEI exChange provides personalised matches to help make your ‘Big Idea for Africa’ a reality.</p>
                             <p>Whatever it is, the PEI exChange makes it possible to connect and chat with the right people, exchange ideas and knowledge and build networks to support Big Ideas.</p>
                         </div>
-                        <div class="large-4 columns shift-2"><em class="bold">Add your email to <span>get involved</span>.</em>
+                        <div class="large-6 columns shift-2"><em class="bold">Add your email to <span>get involved</span>.</em>
                             <form>
                                 <input placeholder="someone@example.com" required="required" class="" type="email">
                                 <input value="Sign Up" class="btn btn-big bg-five active" type="submit">
@@ -238,7 +247,9 @@
                     </div>
                 </section>
                 <footer>
-                    <div class="grid-container"><span>© Planet Earth Institute 2017. All rights reserved.</span></div>
+                    <div class="grid-container">
+                        <span>© Planet Earth Institute 2017. All rights reserved.</span>
+                    </div>
                 </footer>
             </div>
         </div>
