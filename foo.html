@@ -178,7 +178,7 @@
                 color: #109bd4;
             }
 
-           footer {
+            footer {
                 background: #fff;
                 width: 100%;
                 position: relative;
@@ -187,7 +187,7 @@
                 color: #ababab;
                 font-size: .9em;
             }
-            
+
             .home footer .grid-container {
                 border-top: 1px solid #ededed;
                 padding-top: 20px;
@@ -200,7 +200,7 @@
                         <a href="" class="router-link-exact-active router-link-active">
                             <img src="img/aesa-logo.jpg" class="logo">
                         </a>    
-                        <a href="register" class="button success float-right">Sign Up</a>
+                        <a href="http://localhost/aesa-deltas/user/register" target="_blank" class="button success float-right">Sign Up <i class="fa fa-sign-in" aria-hidden="true"></i></a>
                         <a href="http://www.aasciences.ac.ke" target="_blank" title="The African Academy of Sciences website" class="button float-right" style="background-color: #003A70;">AAS</a>
                         <a href="http://www.aesa.ac.ke" target="_blank" title=" Alliance for Accelerating Excellence in Science in Africa website" class="button float-right" style="background-color: #DEB200;">AESA</a>
                         <a href="http://localhost/moodle" target="_blank" title="AESA E-learning platform" class="button float-right" style="background-color: #D08B0B;">Training Resources <i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
@@ -215,24 +215,27 @@
                             <br>
                             <p class="large">A shared platform for the AESA Community</p>
                             <br>
-                            <a href="http://localhost/aesa-deltas/user/register" target="_blank" class="button secondary large expanded" style="border-radius: 25px; opacity: 1; font-size: 1.5em;">Sign Up</a>
+                            <a href="http://localhost/aesa-deltas/user/register" target="_blank" class="button secondary large expanded" style="border-radius: 25px; opacity: 1; font-size: 1.5em;">Sign Up <i class="fa fa-sign-in" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </section>
-                <section class="how-it-works">
+                <section class="how-it-works" id="about">
                     <div class="grid-container"><em class="bold">How it works</em>
-                        <div class="large-4 columns"><img src="/static/img/home-ipad-1.20a6c82.jpg">
-                            <h4>Networking reinvented</h4>
+                        <div class="large-4 columns"><i class="fa fa-question-circle-o fa-5x"></i>
+                            <h4>Ask Questions</h4>
                             <p>Get matched with people that can support your Big Idea for Africa or offer the right skills sets to take your project to the next level.</p>
                         </div>
-                        <div class="large-4 columns"><img src="/static/img/home-ipad-2.26c8b88.jpg">
-                            <h4>Connect and exchange instantly</h4>
+                        
+                        <div class="large-4 columns"><i class="fa fa-users fa-5x" aria-hidden="true"></i>
+                            <h4>Join Groups</h4>
                             <p>Connect, chat and exchange ideas with the right the people and right projects at the right time.</p>
                         </div>
-                        <div class="large-4 columns"><img src="/static/img/home-ipad-3.ff85584.jpg">
-                            <h4>Get recognised</h4>
+                        
+                        <div class="large-4 columns"><i class="fa fa-comments fa-5x" aria-hidden="true"></i>
+                            <h4>Interact </h4>
                             <p>Whatever it is – a project, a new technology, a business or a research collaboration – use the Big Ideas Map to get your work recognised.</p>
                         </div>
+                        
                     </div>
                 </section>
                 <section class="join-us">
@@ -253,7 +256,11 @@
                 </section>
                 <footer>
                     <div class="grid-container">
-                        <span>© Planet Earth Institute 2017. All rights reserved.</span>
+                        <span>&copy; African Academy of Sciences.
+                            <script type="text/javascript">
+                                document.write(new Date().getFullYear());
+                            </script>
+                        </span>
                     </div>
                 </footer>
             </div>
