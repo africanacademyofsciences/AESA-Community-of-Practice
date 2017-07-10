@@ -1,0 +1,178 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 10, 2017, 3:25:49 PM
+    Author     : kimaiga
+*/
+
+html, body{
+    font-family: 'Raleway', serif;
+    /*font-size: 16px;*/
+    /*padding-top: 80px;*/
+    text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: capitalize;
+    font-family: 'Raleway', serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: inherit;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    clear: both;
+    height: 65px;
+    box-sizing: border-box;
+    z-index: 100;
+    overflow: visible;
+    background: #fff;
+    box-shadow: 0 0 25px rgba(0,0,0,.02);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.home .info h1 {
+    /*color: #fff;*/
+    font-size: 30px;
+}
+
+home .info p {
+    color: #fff;
+    font-size: 1.8em;
+    margin-bottom: 35px;
+}
+
+header .logo, header nav {
+    display: inline-block;
+    float: left;
+}
+
+header .logo {
+    width: 260px;
+    /*height: 0px;*/
+}
+
+.home header .button {
+    margin-left: 15px;
+}
+
+.grid-container {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: calc(100% - 60px);
+    max-width: 1400px;
+}
+
+a {
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, span, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.hero-welcome {
+    position: relative;
+    margin-top: 65px;
+    width: 100%;
+    height: 71vh;
+    background-image: url(../img/banner.png); no-repeat 50% fixed;
+    background-size: 100%;
+}
+
+section {
+    display: block;
+}
+
+.hero-welcome .info {
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+p.large {
+    font-size: 1.235em;
+    line-height: 1.25;
+    color: #003A70;
+    font-weight: 900; 
+}
+
+.home .how-it-works {
+    background: #fff;
+    width: 100%;
+    position: relative;
+    clear: both;
+    padding: 60px 0;
+    overflow: auto;
+    text-align: center;
+}
+
+.home .how-it-works em {
+    display: block;
+    clear: both;
+    color: #327ca2;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-family: 'Raleway', serif;
+}
+em {
+    line-height: 1.15;
+}
+
+.home .join-us {
+    background: #fff;
+    width: 100%;
+    position: relative;
+    clear: both;
+    color: #109bd4;
+}
+
+.home .join-us {
+    color: #109bd4;
+}
+
+
+footer {
+    background: #fff;
+    width: 100%;
+    position: relative;
+    clear: both;
+    padding: 0 0 80px;
+    color: #ababab;
+    font-size: .9em;
+}
+
+.home footer .grid-container {
+    border-top: 1px solid #ededed;
+    padding-top: 20px;
+}
