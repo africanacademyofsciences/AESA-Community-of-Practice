@@ -117,7 +117,7 @@
                 position: relative;
                 margin-top: 65px;
                 width: 100%;
-                height: 70vh;
+                height: 73vh;
                 background: url(img/banner.png) no-repeat 50% fixed;
                 background-size: 100%;
             }
@@ -177,6 +177,7 @@
             .home .join-us {
                 color: #109bd4;
             }
+            
 
             footer {
                 background: #fff;
@@ -196,7 +197,7 @@
         <div id="app">
             <div class="home">
                 <header>
-                    <div class="grid-container clearfix">
+                    <div class="grid-container clearfix stacked">
                         <a href="" class="router-link-exact-active router-link-active">
                             <img src="img/aesa-logo.jpg" class="logo">
                         </a>    
@@ -215,42 +216,54 @@
                             <br>
                             <p class="large animated zoomIn">A shared platform for the AESA Community</p>
                             <br>
-                            <a href="http://localhost/aesa-deltas/user/register" target="_blank" class="button secondary large expanded animated fadeInDown" style="border-radius: 25px; opacity: 1; font-size: 1.5em;">Sign Up <i class="fa fa-sign-in" aria-hidden="true"></i></a>
+                            <a href="http://localhost/aesa-deltas/user/register" target="_blank" class="button secondary expanded animated fadeInDown" style="border-radius: 25px; opacity: 1; font-size: 1.5em;">Sign Up <i class="fa fa-sign-in" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </section>
-                <section class="how-it-works" id="about">
+                <section class="how-it-works" id="about" style="background-color: #DEB200; color: #FFFFFF;">
                     <div class="grid-container"><em class="bold">How it works</em>
                         <div class="large-4 columns"><i class="fa fa-question-circle-o fa-5x"></i>
                             <h4>Ask Questions</h4>
                             <p>Get matched with people that can support your Big Idea for Africa or offer the right skills sets to take your project to the next level.</p>
                         </div>
-                        
+
                         <div class="large-4 columns"><i class="fa fa-users fa-5x" aria-hidden="true"></i>
                             <h4>Join Groups</h4>
                             <p>Connect, chat and exchange ideas with the right the people and right projects at the right time.</p>
                         </div>
-                        
+
                         <div class="large-4 columns"><i class="fa fa-comments fa-5x" aria-hidden="true"></i>
                             <h4>Interact </h4>
                             <p>Connect, chat and exchange ideas with the right the people and right projects at the right time.</p>
                         </div>
-                        
+
                     </div>
                 </section>
+                <br>
                 <section class="join-us">
                     <div class="grid-container">
-                        <div class="large-6 columns shift-1">
-                            <h2 class="bold">Join Us on PEI ex<span>Change</span></h2>
-                            <p>The PEI exChange is the first online matching platform for all those passionate about African development.</p>
-                            <p>Based on user-identified criteria, including countries and regions of focus, industries, skills and experience, the PEI exChange provides personalised matches to help make your ‘Big Idea for Africa’ a reality.</p>
-                            <p>Whatever it is, the PEI exChange makes it possible to connect and chat with the right people, exchange ideas and knowledge and build networks to support Big Ideas.</p>
+                        <div class="large-4 columns shift-1">
+                            <h2 class="bold">Featured<span>Links</span></h2>
+                            <a href="index.html" title="Community of Practice">AESA Community of Practice</a>
+                            <br>
+                            <a href="http://aasciences.ac.ke" target="_blank" title="The African Academy of Sciences">The African Academy of Sciences</a>
+                            <br>
+                            <a href="http://aesa.ac.ke" target="_blank" title="AESA"> The Alliance for Accelerating Excellence in Science in Africa</a>
                         </div>
-                        <div class="large-6 columns shift-2"><em class="bold">Add your email to <span>get involved</span>.</em>
-                            <form>
-                                <input placeholder="someone@example.com" required="required" class="" type="email">
-                                <input value="Sign Up" class="btn btn-big bg-five active" type="submit">
-                            </form>
+                        <div class="large-4 columns shift-2">
+                            <em class="bold">Follow<span>Us</span>.</em>
+                            <br/>
+
+                            <a class="foot" href="https://twitter.com/AASciences" target="_blank">
+                                <i class="fa fa-twitter fa-2x"></i>
+                            </a>
+                            <a class="foot" href="https://www.facebook.com/aasciences/" target="_blank">
+                                <i class="fa fa-facebook fa-2x"></i>
+                            </a>
+                        </div>
+                        <div class="large-4 columns">
+                            <p>Contact Us</p>
+                            <a href="http://aesa.ac.ke/privacy-policy/" target="_blank" title="Privacy Policy"><i class="fa fa-lock fa-lg"></i> Privacy Policy</a>
                         </div>
                     </div>
                 </section>
@@ -272,7 +285,7 @@
         <script src="js/vendor/foundation.min.js"></script>
         <script src="js/app.js"></script>
         <script>
-            smoothScroll.init();
+                                smoothScroll.init();
         </script>
     </body>
 </html>
