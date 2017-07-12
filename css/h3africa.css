@@ -480,7 +480,9 @@ span.text-content {
         margin-top: 20px; } }
 
 .img-rounded {
-    border-radius: 100px;
+    border-radius: 120px;
+    height: 100px;
+    width: 100px;
 }
 
 #consortium{
