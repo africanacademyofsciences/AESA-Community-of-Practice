@@ -154,11 +154,11 @@ em {
     width: 100%;
     position: relative;
     clear: both;
-    color: #109bd4;
+    color: #f26522;
 }
 
-.home .join-us {
-    color: #109bd4;
+.home .join-us a {
+    color: #003A70;
 }
 
 
