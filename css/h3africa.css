@@ -8,7 +8,7 @@ and open the template in the editor.
     font-family: 'Raleway', serif;
 }
 body{
-     background-color: #271710;
+     background-color: #FFFFFF;
 }
 
 /************************************************************************************ 
@@ -17,7 +17,7 @@ body{
 
 .menu > li > a {
     text-align: center;
-    color: #ffffff;
+    color: #003A70;
     font-weight: bolder;
 }
 .top-bar,
@@ -35,14 +35,14 @@ body{
     padding-left: 5%;
 }
 .header.scrolling {
-    background-color: #271710;
+    background-color: #003A70;
     opacity: 1;
     transition: .5s;
     z-index: 10;
 }
 
 .scrolling .menu > li > a {
-    color: #fff;
+    color: #f26522;;
 }
 .xx .register-top-right {
     border: solid 1px #fff;
@@ -59,7 +59,7 @@ body{
     opacity: .5;
 }
 li a:hover {
-    color: #DEB200;
+    color: #f26522;
     border-bottom: 1px;
     transition: .5;
 }
@@ -99,7 +99,7 @@ li a:hover {
 
 .hero p {
     text-align: center;
-    color: #FFFFFF;
+    color: #003A70;
     font-size: 3.5em;
     line-height: 65px;
 }
