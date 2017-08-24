@@ -28,7 +28,7 @@ body{
 }
 
 #menu ul{
-   background-color: #003A70; 
+    background-color: #003A70; 
 }
 
 #callout{
@@ -377,5 +377,5 @@ span.text-content {
         margin-top: 20px; } }
 
 #deltaslogo{
-height: auto;
+    height: auto;
 }
