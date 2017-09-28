@@ -32,6 +32,7 @@ body{
     top: 0;
     z-index: 1;
 }
+
 .nav .left{
     float: left;
     margin-left: 0;
@@ -138,21 +139,8 @@ body{
 }
 /*********MEDIA QUERY END**********/
 
-#menu{
-    background-color: #003A70;
-}
 
-#menu ul{
-    background-color: #003A70; 
-}
 
-#callout{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    font-family: 'Raleway', serif;
-}
 
 .hr{
     width: 700px;
@@ -164,16 +152,7 @@ body{
     padding: 40px;
     margin:-15px;
 }
-nav{
-    background-color: rgba(0,0,0,0);
-    color: white;
-}
 
-.menu > li > a {
-    text-align: center;
-    color: #FFFFFF;
-    font-weight: bolder;
-}
 .link, .linkz{
     list-style: none;
     padding-left: 5px;
@@ -276,13 +255,7 @@ nav{
     text-align: center;
     font-size: 17px;
 }
-#tuition{
-    color: white;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(../assets/bg_student.jpg);
-}
+
 .tuit{
     font-size: 24px;
     text-align: center;
@@ -491,6 +464,43 @@ span.text-content {
         width: 80%;
         margin-top: 20px; } }
 
-#deltaslogo{
+/*#deltaslogo{
     height: auto;
+}*/
+
+
+
+
+.hero-welcome {
+    background: url('../img/deltaspic.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#abouttext{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+
+.home .info h1 {
+    /*color: #fff;*/
+    font-size: 30px;
+}
+
+home .info p {
+    color: #fff;
+    font-size: 1.8em;
+    margin-bottom: 35px;
 }

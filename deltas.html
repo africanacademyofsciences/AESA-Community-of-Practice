@@ -20,6 +20,15 @@
         <!--font-awesome-->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!--nabvar background change on scrolling-->
+        <script>
+            $(function () {
+                $(document).scroll(function () {
+                    var $nav = $(".navbar-fixed-top");
+                    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+                });
+            });
+        </script>
     </head>
     <body>
         <script>
@@ -39,8 +48,7 @@
             ga('send', 'pageview');
 
         </script>
-        <a href="#" class="go-top">Back to top</a>
-                <nav class="nav">
+        <nav class="nav">
             <div class="nav-center">
                 <a class="toggle-nav" href="#">&#9776;</a>
 
@@ -59,59 +67,52 @@
             </div>
         </nav>
         <!-- first container -->
-        <div id="home">
-            <div class="overlay">
-<!--                <nav class="header">
-                    <div class="title-bar" data-responsive-toggle="menu" data-hide-for="medium">
-                        <button class="right fixd" type="button" data-toggle><i class="fa fa-bars"></i></button>
-                    </div>
-                    <div class="top-bar" id="menu" data-animation-in="hingeOutFromMiddleY">
-                        <div class="row zero">
-                            <div class="large-3 medium-3 columns" style="border-radius: 10px; background-color: #FFFFFF;">
-                                <a href=""><img src="img/deltas-africa.png"  width="310" height="100px" title="Deltas Africa"></a>
+        <div id="app" class="container">
+            <div class="home">
+                <section class="hero-welcome">
+                    <div class="grid-container" style="margin-top: -20px;">
+                        <div class="info animated fadeInDown">
+                            <div class="info" style="bottom:15px; padding-top: 45%;">
+                                <div style="text-align: center;" >
+                                    <a data-scroll href="#about" style="color: #F26522;" title="About Deltas"><i class="fa fa-arrow-down fa-2x animated infinite fadeIn" aria-hidden="true" ></i></a>
+
+                                </div>
                             </div>
                         </div>
-                        <div class="top-bar-right up">
-                            <ul class="menu">
-                                <li class="link"><a class="ppl" href="index.html">Home <i class="fa fa-home" aria-hidden="true"></i></a></li>
-                                <li class="link"><a class="ppl" href="#about">About <i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                <li class="link"><a class="ppl" href="#team">Team <i class="fa fa-users"></i></a></a></li>
-                                <li class="link"><a class="ppl" href="#programmes">Programmes</a></li>
-                            </ul>
-                        </div>
                     </div>
-                </nav>-->
-                <!-- end of navbar -->
-                <div style="text-align: justify;">
-                    <p class="big animated fadeInDown"> Developing Excellence in Leadership, Training and Science (DELTAS) Africa </p>
-                    <p class="mdim animated fadeInLeft"> This is an AESA programme supporting 11 collaborative teams headed by world class researchers </p>
-                    <p class="mdim animated fadeInRight"> and spanning 54 lead and partner institutions from across the continent to invest in research infrastructure and offer training fellowships and mentorship. </p>
-                </div>
-                <br>
-                <hr>
-                <div class="row" style="padding-top: 40px;">
-                    <div class="large-4 medium-4 small-12 columns">
-                        <a class="animated fadeInUp success button large expanded" href="#about" target="_blank" style="color: white; background-color: #003A70;">
-                            About
-                            <i class="fa fa-info" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="large-4 columns medium-4 small-12 columns">
-                        <a class="animated fadeInUp button large expanded" href="#team" target="_blank" style="background-color: #A6A6A6;">
-                            Programmes
-                            <i class="fa fa-users" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="large-4 columns medium-4 small-12 columns">
-                        <a class="animated fadeInUp button large expanded" href="https://deltas.aesacop.ac.ke/" target="_blank" style="width: 110%; background-color: #F26522;">
-                            Community of Practice
-                            <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <br>
-                <div style="text-align: center;">
-                    <a href="#about" style="color: #F26522;" title="About Deltas"><i class="fa fa-arrow-down fa-2x animated infinite fadeIn" aria-hidden="true"></i></a>
-
-                </div>
+                </section>
             </div>
+            <!--            <div class="overlay">
+                             end of navbar 
+                            <div style="text-align: justify;">
+                                <p class="big animated fadeInDown"> Developing Excellence in Leadership, Training and Science (DELTAS) Africa </p>
+                                <p class="mdim animated fadeInLeft"> This is an AESA programme supporting 11 collaborative teams headed by world class researchers </p>
+                                <p class="mdim animated fadeInRight"> and spanning 54 lead and partner institutions from across the continent to invest in research infrastructure and offer training fellowships and mentorship. </p>
+                            </div>
+                            <br>
+                            <hr>
+                            <div class="row" style="padding-top: 40px;">
+                                <div class="large-4 medium-4 small-12 columns">
+                                    <a class="animated fadeInUp success button large expanded" href="#about" target="_blank" style="color: white; background-color: #003A70;">
+                                        About
+                                        <i class="fa fa-info" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="large-4 columns medium-4 small-12 columns">
+                                    <a class="animated fadeInUp button large expanded" href="#team" target="_blank" style="background-color: #A6A6A6;">
+                                        Programmes
+                                        <i class="fa fa-users" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="large-4 columns medium-4 small-12 columns">
+                                    <a class="animated fadeInUp button large expanded" href="https://deltas.aesacop.ac.ke/" target="_blank" style="width: 110%; background-color: #F26522;">
+                                        Community of Practice
+                                        <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <br>
+                            <div style="text-align: center;">
+                                <a href="#about" style="color: #F26522;" title="About Deltas"><i class="fa fa-arrow-down fa-2x animated infinite fadeIn" aria-hidden="true"></i></a>
+            
+                            </div>-->
         </div>
         <!-- end of first container -->
         <div id="about">
