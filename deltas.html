@@ -20,15 +20,6 @@
         <!--font-awesome-->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <!--nabvar background change on scrolling-->
-        <script>
-            $(function () {
-                $(document).scroll(function () {
-                    var $nav = $(".navbar-fixed-top");
-                    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-                });
-            });
-        </script>
     </head>
     <body>
         <script>
@@ -60,7 +51,6 @@
                         <li><a data-scroll href="index.html" style="color: #003A70; font-size: 17.5px;"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                         <li><a data-scroll href="#about" style="color: #003A70; font-size: 16px;"><i class="fa fa-info" aria-hidden="true"></i> About</a></li>
                         <li><a data-scroll href="#team" style="color: #003A70; font-size: 16px;"><i class="fa fa-users" aria-hidden="true"></i> DELTAS Team</a></li>
-                        <li><a data-scroll href="#programmes" style="color: #003A70; font-size: 16px;"> Programmes</a></li>
                         <li><a href="https://deltas.aesacop.ac.ke/" style="color: #003A70; font-size: 16px;" target="_blank"><i class="fa fa-sign-in"></i> Sign Up</a></li>
                     </ul>
                 </div>
@@ -82,37 +72,6 @@
                     </div>
                 </section>
             </div>
-            <!--            <div class="overlay">
-                             end of navbar 
-                            <div style="text-align: justify;">
-                                <p class="big animated fadeInDown"> Developing Excellence in Leadership, Training and Science (DELTAS) Africa </p>
-                                <p class="mdim animated fadeInLeft"> This is an AESA programme supporting 11 collaborative teams headed by world class researchers </p>
-                                <p class="mdim animated fadeInRight"> and spanning 54 lead and partner institutions from across the continent to invest in research infrastructure and offer training fellowships and mentorship. </p>
-                            </div>
-                            <br>
-                            <hr>
-                            <div class="row" style="padding-top: 40px;">
-                                <div class="large-4 medium-4 small-12 columns">
-                                    <a class="animated fadeInUp success button large expanded" href="#about" target="_blank" style="color: white; background-color: #003A70;">
-                                        About
-                                        <i class="fa fa-info" aria-hidden="true"></i></a>
-                                </div>
-                                <div class="large-4 columns medium-4 small-12 columns">
-                                    <a class="animated fadeInUp button large expanded" href="#team" target="_blank" style="background-color: #A6A6A6;">
-                                        Programmes
-                                        <i class="fa fa-users" aria-hidden="true"></i></a>
-                                </div>
-                                <div class="large-4 columns medium-4 small-12 columns">
-                                    <a class="animated fadeInUp button large expanded" href="https://deltas.aesacop.ac.ke/" target="_blank" style="width: 110%; background-color: #F26522;">
-                                        Community of Practice
-                                        <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <br>
-                            <div style="text-align: center;">
-                                <a href="#about" style="color: #F26522;" title="About Deltas"><i class="fa fa-arrow-down fa-2x animated infinite fadeIn" aria-hidden="true"></i></a>
-            
-                            </div>-->
         </div>
         <!-- end of first container -->
         <div id="about">
@@ -2271,47 +2230,40 @@
                 <button class="close-button" data-close aria-label="Close modal" type="button"> <span aria-hidden="true">&times;</span> </button>
             </div>
             <!--footer section-->
-            <footer id="featured">
-                <div>
-                    <div class="row">
-                        <div class="large-4 medium-4 columns">
-                            <p class="tt">Featured Links
-                                <br/>
-                                <a href="http://aesacop.or.ke" title="Community of Practice">AESA Community of Practice</a>
-                                <br>
-                                <a href="http://aasciences.ac.ke" target="_blank" title="The African Academy of Sciences">The African Academy of Sciences</a>
-                                <br>
-                                <a href="http://aesa.ac.ke" target="_blank" title="AESA"> The Alliance for Accelerating Excellence in Science in Africa</a>
-                            </p>
+                <footer class="animated fadeIn">
+                    <div class="container">
+                        <p style="text-align: center;"><span class="si">For more information on the<em> AESA Community of Practice</em> or for general inquiries, </span><a href="mailto:communication@aasciences.ac.ke" style="font-size: 17px;"> <i class="fa fa-envelope-o" aria-hidden="true"></i> Contact now</a></p>
+                        <div class="clearfix"></div>
+                        <div class="footer-menu">
+                            <div class="large-12 columns">
+                                <ul>
+                                    <li><a data-scroll href="#about"><i class="fa fa-info fa-lg" aria-hidden="true"></i> ABOUT</a></li>
+                                    <li><a data-scroll href="#team"><i class="fa fa-users fa-lg" aria-hidden="true"></i> TEAM</a></li>
+                                    <li><a href="https://elearning.aesacop.ac.ke/" target="_blank"><i class="fa fa-graduation-cap fa-lg" aria-hidden="true"></i> ELEARNING</a></li>
+                                    <li><a href="aesa.ac.ke" target="_blank" target="_blank"><i class="fa fa-globe fa-lg" aria-hidden="true"></i> AESA</a></li>
+                                    <li><a href="https://www.aasciences.ac.ke" target="_blank"><i class="fa fa-flask fa-lg" aria-hidden="true"></i> AAS</a></li>
+                                    <li><a href="https://deltas.aesacop.ac.ke/" target="_blank"><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i> SIGN-UP</a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="large-4 medium-4 columns">
-                            <p class="tt">Follow Us
-                                <br/>
+                        <div class="social-footer">
+                            <p>FOLLOW US</p>
+                            <ul>
+                                <li><a href="https://www.facebook.com/aesaafrica/" target="_blank"><i class="fa fa-facebook fa-lg" style="font-size: 20px;"></i></a></li>
+                                <li><a href="https://twitter.com/AAS_AESA" target="_blank"><i class="fa fa-twitter fa-lg" style="font-size: 20px;"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCtdLgoNICbdUFqkw-ph508g" target="_blank"><i class="fa fa-youtube-play fa-lg" style="font-size: 20px;"></i></a></li>
+                            </ul>
+                        </div>
 
-                                <a class="foot" href="https://twitter.com/AASciences" target="_blank">
-                                    <i class="fa fa-twitter fa-2x"></i>
-                                </a>
-                                <a class="foot" href="https://www.facebook.com/aasciences/" target="_blank">
-                                    <i class="fa fa-facebook fa-2x"></i>
-                                </a>
-                            </p>
-                        </div>
-                        <div class="large-4 medium-4 columns">
-                            <p class="tt">Privacy
-                                <br/>
-                                <a href="http://aesa.ac.ke/privacy-policy/" target="_blank" title="Privacy Policy"><i class="fa fa-lock fa-lg"></i> Privacy Policy</a>
-                            </p>
+                        <div class="clearfix"></div>
+
+                        <div class="disclaimer-footer">
+                            <div class="large-12 columns">
+                                <p class="p1" style="text-align: center;"><span class="s1">&copy;<script type="text/javascript">document.write(new Date().getFullYear());</script><em> AESA Community of Practice</em>. All Rights Reserved. <a href="https://www.aasciences.ac.ke/aesa/privacy-policy/">Disclaimer</a></span></p>
+                            </div>
                         </div>
                     </div>
-                    <!-- curent date and year to appear on footer-->
-                    <div class="row" id="copyright" style="text-align: center;">
-                        &copy; African Academy of Sciences.
-                        <script type="text/javascript">
-                            document.write(new Date().getFullYear());
-                        </script>
-                    </div>
-                </div>
-            </footer>
+                </footer>
             <a href="#home" id="toTop" style="display: block;"><span id="toTopHover" title="scroll up"></span><span id="toTopHover"></span> <span id="toTopHover" style="opacity: 1;"> </span></a>
         </div>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>

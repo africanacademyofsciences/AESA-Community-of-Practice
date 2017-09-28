@@ -260,11 +260,7 @@ body{
     font-size: 24px;
     text-align: center;
 }
-footer{
-    background: #003A70;
-    bottom: 0;
-    color: #FFFFFF;
-}
+
 .cent{
     text-align: center;
     padding-top: 34px;
@@ -276,44 +272,124 @@ footer{
     color: #f26522;
 }
 
-footer a{
-    color: #ffffff;
-    font-size: 13px;
-}
-
-footer a:hover{
-    color: #f26522;
-}
 
 li{
     list-style: none;
 }
-.go-top {
-    position: fixed;
-    bottom: 0.75em;
-    right: 0.5em;
-    text-decoration: none;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.4);
-    font-size: 15px;
-    padding: 10px;
-    display: none;
+
+
+/*footer*/
+
+footer {
+    background: #003A70;
+    color: #fff;
+    padding: 50px 0;
 }
 
-#toTop {
-    display: none;
-    text-decoration: none;
-    position: fixed;
-    bottom: 20px;
-    right: 2%;
-    overflow: hidden;
-    z-index: 999;
-    width: 32px;
-    height: 32px;
-    border: none;
-    text-indent: 100%;
-    background: url("../img/arrow.png") no-repeat 0px 0px;
+footer .prefooter-left {
+    float: right;
+    width: 88%;
 }
+
+footer .prefooter-left p {
+    font-size: 18px;
+}
+
+footer .prefooter-right {
+    text-align: center;
+    padding-left: 30px;
+    margin-top: 4px;
+}
+
+.prefooter-right {
+    text-align: left;
+}
+
+#btn-exit.wb {
+    border-color: #fff;
+    color: #fff;
+}
+
+#btn-exit {
+    font-size: 18px;
+    /*border-width: 2px;*/
+    /*border-style: solid;*/
+    display: inline-block;
+    padding: 7px 15px 7px 40px;
+    line-height: 1.4;
+    font-weight: 700;
+    position: relative;
+    -webkit-transition: .6s ease;
+    transition: .6s ease;
+}
+
+footer .footer-menu ul {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 8px 0;
+}
+
+footer .footer-menu ul li {
+    display: inline-block;
+    margin: 0 8px 0;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10.5px;
+}
+
+
+footer .footer-menu {
+    text-align: center;
+}
+
+footer .footer-menu ul li a:hover {
+    color: #D08B0B;
+}
+footer .footer-menu ul li a {
+    font-size: 13px;
+    color: #fff;
+}
+footer a:hover {
+    color: #D08B0B;
+}
+a:focus, a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+a:active, a:hover {
+    outline: 0;
+}
+
+footer .social-footer {
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer .social-footer ul {
+    padding: 8px 0;
+}
+
+footer .social-footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+footer .disclaimer-footer p {
+    font-size: 13px;
+}
+
+footer .prefooter-right {
+    text-align: left;
+}
+
+
 
 .image {
     height: 200px;
@@ -464,13 +540,6 @@ span.text-content {
         width: 80%;
         margin-top: 20px; } }
 
-/*#deltaslogo{
-    height: auto;
-}*/
-
-
-
-
 .hero-welcome {
     background: url('../img/deltaspic.jpg') no-repeat center center;
     background-size: cover;
@@ -503,4 +572,11 @@ home .info p {
     color: #fff;
     font-size: 1.8em;
     margin-bottom: 35px;
+}
+.nav .right li a:hover{
+    color: #D08B0B;
+}
+
+.nav .left li a:hover{
+    color: #D08B0B;
 }
