@@ -49,10 +49,23 @@ h5 {
     font-weight: inherit;
 }
 
-/*Navbar*/
+.nav-center,
+.center{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+a{
+    color: #191919;
+    text-decoration: none;
+}
 ul{
     list-style: none;
 }
+
+/****************************NAV BAR************************************/
 
 .nav{
     background: #ffffff;
@@ -60,6 +73,7 @@ ul{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 .nav .left{
     float: left;
@@ -67,15 +81,21 @@ ul{
 }
 .nav .left li{
     font-size: 14px;
-    float: left;
+    float: left;.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 }
 .nav .left li a{
     display: block;
     padding: 9px 15px;
     line-height: 30px;
+    font-size: 18.5px;
 }
 .nav .left li a:hover{
-    background: #f2f2f2;
+    color: #D08B0B;
 }
 
 .nav .right{
@@ -90,9 +110,10 @@ ul{
     display: block;
     padding: 9px 15px;
     line-height: 30px;
+    font-size: 18.5px;
 }
 .nav .right li a:hover{
-    background: #f2f2f2;
+    color: #D08B0B;
 }
 
 .toggle-nav{
@@ -103,9 +124,9 @@ ul{
     display: block;
 }
 
-/*Navbar end*/
+/*********NAV BAR END**********/
 
-/*Media Queries to Navbar*/
+/****************************MEDIA QUERIES************************************/
 @media only screen and (max-width: 640px){
     .nav{
         border-bottom: 1px solid rgba(0,0,0,0.1);
@@ -159,7 +180,6 @@ ul{
     }
 }
 /*********MEDIA QUERY END**********/
-
 .home .info h1 {
     /*color: #fff;*/
     font-size: 30px;
