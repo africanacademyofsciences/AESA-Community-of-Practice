@@ -144,15 +144,40 @@ ul{
 
 
 
-#home{
-    background-color: #00196F;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.hero-welcome {
+    background: url('../img/gfgphero.jpg') no-repeat center center;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 1000px;
 }
-.overlay{
-    background-color: #2a2d38;
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+#abouttext{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+
+.home .info h1 {
+    /*color: #fff;*/
+    font-size: 30px;
+}
+
+home .info p {
+    color: #fff;
+    font-size: 1.8em;
+    margin-bottom: 35px;
+}
+
 .hr{
     width: 700px;
 }
