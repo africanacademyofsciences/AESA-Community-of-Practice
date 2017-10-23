@@ -306,26 +306,15 @@ home .info p {
     font-size: 24px;
     text-align: center;
 }
-footer{
-    background: #353B47;
-    bottom: 0;
-    color: #FFFFFF;
-}
-.cent{
-    text-align: center;
-    padding-top: 34px;
-}
+
+
 .tt{
     padding-bottom: 2px;
     font-size: 18px;
     padding-top: 20px;
 }
 
-footer a{
-    display: block;
-    color: #ffffff;
-    font-size: 13px;
-}
+
 li{
     list-style: none;
 }
@@ -360,9 +349,7 @@ li{
     padding-left: 4px;
     padding-right: 4px;
 }
-footer a:hover, .foot:hover, .color{
-    color: #DEB200;
-}
+
 .color:hover{
     color: #DEB200 !important;
     text-decoration: underline;
@@ -790,7 +777,15 @@ span.text-content {
         position: relative;
         right: auto;
         top: 0;
-        text-align: left;
+        text-align: left;footer{
+    background: #003A70;
+    bottom: 0;
+    color: #FFFFFF;
+}
+
+footer a:hover{
+    color: #f26522;
+}
         margin: 0 0 6px 56px;
     }
     .timeline .timeline-row .timeline-time small {
@@ -869,17 +864,170 @@ button {
     background: url("../img/arrow.png") no-repeat 0px 0px;
 }
 
+/*footer*/
 
-footer{
+footer {
     background: #003A70;
-    bottom: 0;
-    color: #FFFFFF;
+    color: #fff;
+    padding: 50px 0;
 }
 
-footer a:hover{
-    color: #f26522;
+footer .prefooter-left {
+    float: right;
+    width: 88%;
 }
-.cent{
+
+footer .prefooter-left p {
+    font-size: 18px;
+}
+
+footer .prefooter-right {
     text-align: center;
-    padding-top: 34px;
+    padding-left: 30px;
+    margin-top: 4px;
+}
+
+.prefooter-right {
+    text-align: left;
+}
+
+#btn-exit.wb {
+    border-color: #fff;
+    color: #fff;
+}
+
+#btn-exit {
+    font-size: 18px;
+    /*border-width: 2px;*/
+    /*border-style: solid;*/
+    display: inline-block;
+    padding: 7px 15px 7px 40px;
+    line-height: 1.4;
+    font-weight: 700;
+    position: relative;
+    -webkit-transition: .6s ease;
+    transition: .6s ease;
+}
+
+footer .footer-menu ul {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 8px 0;
+}
+
+footer .footer-menu ul li {
+    display: inline-block;
+    margin: 0 8px 0;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10.5px;
+}
+
+
+footer .footer-menu {
+    text-align: center;
+}
+
+footer .footer-menu ul li a:hover {
+    color: #D08B0B;
+}
+footer .footer-menu ul li a {
+    font-size: 13px;
+    color: #fff;
+}
+footer a:hover {
+    color: #D08B0B;
+}
+a:focus, a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+a:active, a:hover {
+    outline: 0;
+}
+
+footer .social-footer {
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer .social-footer ul {
+    padding: 8px 0;
+}
+
+footer .social-footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+footer .disclaimer-footer p {
+    font-size: 13px;
+}
+
+footer .prefooter-right {
+    text-align: left;
+}
+
+@charset "UTF-8";
+
+.blockquote-container.blockquote-left {
+  float: left;
+  width: 35%;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .blockquote-container.blockquote-left {
+    float: none;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.blockquote-container.blockquote-right {
+  float: right;
+  width: 35%;
+  margin-left: 1rem;
+}
+
+.blockquote-container .callout .blockquote-title {
+  margin-left: 1rem;
+}
+
+.blockquote-container .callout blockquote {
+  quotes: "“" "”" "‘" "’  ";
+  border-left: none;
+}
+
+.blockquote-container .callout blockquote:before {
+  content: open-quote;
+  color: #8a8a8a;
+  font-size: 4em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+
+.blockquote-container .callout blockquote:after {
+  content: close-quote;
+  color: #8a8a8a;
+  font-size: 4em;
+  line-height: 0.1em;
+  vertical-align: -0.6em;
+}
+
+.blockquote-container .callout blockquote .blockquote-content {
+  display: inline;
+  color: #0a0a0a;
+}
+
+#quote{
+    max-width: 500px;
+    align-content: center;
 }
