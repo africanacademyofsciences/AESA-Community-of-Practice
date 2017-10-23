@@ -291,9 +291,9 @@ home .info p {
 .up{
     margin-top: -35px;
     padding-right: 100px;
-}
+}about
 .bout{
-    text-align: center;
+    text-align: justify;
     font-size: 17px;
 }
 #tuition{
@@ -569,10 +569,11 @@ span.text-content {
 .timeline {
     list-style: none;
     position: relative;
-    max-width: 1200px;
+    max-width: 1500px;
     padding: 20px;
     margin: 0 auto;
     overflow: hidden;
+    background-color: #003A70;
 }
 
 .timeline:after {
@@ -762,7 +763,7 @@ span.text-content {
 }
 
 .timeline .bg-kno {
-    background: #f6cf73
+    background: #F26522;
 }
 
 .timeline .bg-exp {
